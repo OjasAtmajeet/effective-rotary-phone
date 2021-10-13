@@ -1,0 +1,323 @@
+body {
+    background-color: #000011;
+    background-image: url("http://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max");
+}
+.sun {
+    background-color: yellow;
+    position: absolute;
+    top:10%;
+    left: -20%;
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+}
+.sunI {
+    position: absolute;
+    transform: translateX(-100px) translateY(-100px);
+}
+.sun1 {
+    border: 2px solid white;
+}
+.mercury {
+    background-color: gray;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    box-shadow: inset -6.25px 0 10px rgb(0, 0, 0);
+    transition-duration: 100ms;
+}
+.mercury:hover {
+    border: 2px solid gray ;
+}
+.mercury1 {
+    border: 2px solid white ;
+}
+.venus {
+    background-color: orange;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: inset -7.5px 0 12px rgb(0, 0, 0);
+    transition-duration: 100ms;
+}
+.venus:hover {
+    border: 2px solid orange ;
+}
+.venus1 {
+    border: 2px solid white ;
+}
+.earth {
+    background-color: steelblue;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: inset -7.5px 0 12px rgb(0, 0, 0);
+    transition-duration: 100ms;
+}
+.earth:hover {
+    border: 2px solid steelblue ;
+}
+.earth1 {
+    border: 2px solid white ;
+}
+.mars {
+    background-color: orangered;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    box-shadow: inset -7px 0 11.2px rgb(0, 0, 0);
+    transition-duration: 100ms;
+}
+.mars:hover {
+    border: 2px solid orangered ;
+}
+.mars1 {
+    border: 2px solid white ;
+}
+.jupiter {
+    background-color: darkred;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: inset -37.5px 0 60px rgb(0, 0, 0);
+    transition-duration: 100ms;
+}
+.jupiter:hover {
+    border: 2px solid darkred;
+}
+.jupiter1 {
+    border: 2px solid white ;
+}
+.saturn {
+    background-color: burlywood;
+    position: absolute;
+    top: 44%;
+    left: 65.5%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: inset -25px 0 40px rgb(0, 0, 0);
+    transition-duration: 100ms;
+}
+.saturn:hover {
+    border: 2px solid burlywood;
+}
+.saturn1 {
+    border: 2px solid white ;
+}
+.uranus {
+    background-color: aqua;
+    position: absolute;
+    top: 45.5%;
+    left: 80%;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    box-shadow: inset -20px 0 32px rgb(0, 0, 0);
+    transition-duration: 100ms;
+}
+.uranus1 {
+    border: 2px solid white ;
+}
+.uranus:hover {
+    border: 2px solid paleturquoise;
+}
+.neptune {
+    background-color: darkblue;
+    position: absolute;
+    top: 45.5%;
+    left: 90%;
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    box-shadow: inset -20px 0 32px rgb(0, 0, 0);
+    transition-duration: 100ms;
+}
+.neptune1 {
+    border: 2px solid white ;
+}
+.neptune:hover {
+    border: 2px solid darkblue;
+}
+.jp {
+    width:150px;
+    height:150px;
+    transform:scaleX(-1);
+}
+.sn {
+    width:250px;
+    height:125px;
+    transform:scaleX(-1) translateX(72px) translateY(-11px);
+}
+.np {
+    height:"100px";
+    width:"100px";
+    border-radius: 50%;
+    object-fit: cover;
+    transform: rotate(-45deg) translateX(0px) translateY(-3.5px);
+}
+.mcy {
+    transform: translateX(-5px) translateY(-5px);
+}
+.ul1 {
+    position: absolute;
+    top:0%;
+    left:0%;
+    color: transparent;
+    font-size: 0px;
+}
+.ul1Click {
+    color: white;
+    background-color: gray;
+    font-size: 16px;
+    width: 200px;
+    transform: translateY(-125px) translateX(-100px);
+}
+.ul2 {
+    position: absolute;
+    top:0%;
+    left:0%;
+    color: transparent;
+    font-size: 0px;
+}
+.ul2Click {
+    color: white;
+    background-color: orange;
+    font-size: 16px;
+    width: 200px;
+    transform: translateY(55px) translateX(-100px);
+}
+.ul3 {
+    position: absolute;
+    top:0%;
+    left:0%;
+    color: transparent;
+    font-size: 0px;
+}
+.ul3Click {
+    color: white;
+    background-color: chartreuse;
+    font-size: 16px;
+    width: 200px;
+    transform: translateY(-125px) translateX(-100px);
+}
+.ul4 {
+    position: absolute;
+    top:0%;
+    left:0%;
+    color: transparent;
+    font-size: 0px;
+}
+.ul4Click {
+    color: white;
+    background-color: orangered;
+    font-size: 16px;
+    width: 200px;
+    transform: translateY(55px) translateX(-100px);
+}
+.ul5 {
+    position: absolute;
+    top:0%;
+    left:0%;
+    color: transparent;
+    font-size: 0px;
+}
+.ul5Click {
+    color: white;
+    background-color: darkred;
+    font-size: 16px;
+    width: 200px;
+    transform: translateY(-125px) translateX(-50px);
+}
+.ul6 {
+    position: absolute;
+    top:0%;
+    left:0%;
+    color: transparent;
+    font-size: 0px;
+}
+.ul6Click {
+    color: white;
+    background-color: burlywood;
+    font-size: 16px;
+    width: 200px;
+    transform: translateY(125px) translateX(-60px);
+}
+.ul7 {
+    position: absolute;
+    top:0%;
+    left:0%;
+    color: transparent;
+    font-size: 0px;
+}
+.ul7Click {
+    color: white;
+    background-color: aqua;
+    font-size: 16px;
+    width: 200px;
+    transform: translateY(-125px) translateX(-80px);
+}
+.ul8 {
+    position: absolute;
+    top:0%;
+    left:0%;
+    color: transparent;
+    font-size: 0px;
+}
+.ul8Click {
+    color: white;
+    background-color: darkblue;
+    font-size: 16px;
+    width: 200px;
+    transform: translateY(125px) translateX(-100px);
+}
+.ul0 {
+    position: absolute;
+    top:0%;
+    left:0%;
+    color: transparent;
+    font-size: 0px;
+}
+.ul0Click {
+    color: white;
+    background-color: rgb(255, 205, 0);
+    font-size: 16px;
+    width: 200px;
+    transform: translateY(55px) translateX(400px);
+}
+.linkp {
+    color:darkgoldenrod;
+    position: fixed;
+    top:94%;
+    left: 80.5%;
+    font-family: "verdana";
+}
+.link {
+    height: 40px;
+    width:200px;
+    background-color: darkcyan;
+    position: fixed;
+    top: 95%;
+    left: 80%;
+    border:5px solid white;
+}
+.stars {
+  background-color: White;
+  position: fixed;
+  border-radius: 50%;
+}
